@@ -1,4 +1,8 @@
-# camerabg
+# tfjs virtual background PoC
+
+This is a Proof of Concept of a webcam virtual background using Tensorflow and Tfjs-bodypix model. 
+
+![](.github/showcase.jpg)
 
 ## Project setup
 ```
@@ -14,16 +18,3 @@ yarn serve
 ```
 yarn build
 ```
-
-### Run your unit tests
-```
-yarn test:unit
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

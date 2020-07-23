@@ -1,0 +1,26 @@
+body {
+  text-align: center;
+
+  video {
+    background: #000;
+  }
+  .top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .plus {
+      font-size: 20px;
+      padding: 15px;
+    }
+  }
+
+  .buttonset {
+    padding: 15px;
+
+    button {
+      margin: 0 4px;
+      cursor: pointer;
+    }
+  }
+}

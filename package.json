@@ -1,6 +1,10 @@
 {
-  "name": "camerabg",
+  "name": "tfjs virtual background PoC",
   "version": "0.1.0",
+  "author": {
+    "name": "Sergio Carracedo",
+    "email": "hi@sergiocarracedo.es"
+  },
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -9,6 +13,10 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@tensorflow-models/body-pix": "^2.0.5",
+    "@tensorflow/tfjs-backend-webgl": "^2.0.1",
+    "@tensorflow/tfjs-converter": "^2.0.1",
+    "@tensorflow/tfjs-core": "^2.0.1",
     "core-js": "^3.6.5",
     "vue": "^2.6.11",
     "vue-router": "^3.2.0"
